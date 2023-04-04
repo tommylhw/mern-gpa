@@ -1,0 +1,33 @@
+table {
+    width: 100%;
+}
+
+tr {
+    width: '100%';
+    /* text-align: center; */
+    padding: 0 10px;
+}
+
+tr:nth-child(even) {
+    background-color: #F2F2F2;
+}
+
+td {
+    padding: 0 20px;
+    border-bottom: 1px solid #D7D7D7;
+}
+
+th {
+    text-align: left;
+    padding: 0 20px;
+    line-height: 40px;
+    border-bottom: 1px solid #D7D7D7;
+}
+
+.header-container {
+    display: flex;
+    /* background-color: red; */
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
