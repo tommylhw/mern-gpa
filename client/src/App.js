@@ -2,9 +2,9 @@ import logo from './logo.svg';
 import './App.css';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
-import CreateCourse from './components/CreateCourse';
-import ShowCourseList from './components/ShowCourseList';
-import UpdateCourseInfo from './components/UpdateCourseInfo';
+import CreateCourse from './pages/CreateCourse/CreateCourse';
+import ShowCourseList from './pages/ShowCourseList/ShowCourseList';
+import UpdateCourseInfo from './pages/UpdateCourseInfo/UpdateCourseInfo';
 
 function App() {
   return (
