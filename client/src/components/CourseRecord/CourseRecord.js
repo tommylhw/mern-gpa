@@ -10,9 +10,11 @@ const CourseRecord = (props) => {
         <td>{props.record.credit}</td>
         <td>{props.record.gpa}</td>
         <td className='td-action'>
+          <Link className='link'>Details</Link>
+          <p> | </p>
           <Link className='link'>Edit</Link>
           <p> | </p>
-          <Link className='link'>Delete</Link>
+          <Link className='link'>Delete</Link>    
         </td>
       </tr>
     
