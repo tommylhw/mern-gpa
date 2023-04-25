@@ -18,7 +18,7 @@ app.use(express.json({ extended: false }));
 
 // app.get('/', (req, res) => res.send('Hello world!'));
 
-// // use Routes
+// use Routes -> the index page of backend server
 app.use('/api/courses', record);
 
 const port = process.env.PORT || 8082;

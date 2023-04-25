@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 
 // Load Courses model
-const Course = require('../../models/Courses');
+const Course = require('../../models/Courses'); 
 
 // @route GET api/courses/test
 // @description tests courses route
@@ -50,7 +50,7 @@ router.put('/:id', (req, res) => {
 // @route GET api/courses/:id
 // @description Delete course by id
 // @access Public
-router.delete('/:id', (req, res) => {
+router.delete('/:id', (req, res) => { 
   Course.findByIdAndRemove(req.params.id, req.body)
     .then(course => res.json({ mgs: 'Course entry deleted successfully' }))
     .catch(err => res.status(404).json({ error: 'No such a course' }));
